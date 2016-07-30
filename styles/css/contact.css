@@ -1,0 +1,84 @@
+/* stylesheet for David Kerr portfolio contact page */
+
+.form {
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+form {
+	display: inline-block;
+	text-align: center;
+}
+
+*:focus {
+	outline: 0;
+}
+
+.contact-form input {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	border: none;
+	padding: 0 10px;
+
+}
+
+.contact-form input:focus {
+	background-color: #eee;
+}
+
+.contact-form input[type=text] {
+	height: 30px;
+	padding: 0 10px;
+	margin: 5px 0 0 0;
+	border-radius: 0;
+	display: inline-block;
+}
+
+.contact-form input[name=name] {
+	width: 255px;
+}
+
+.contact-form input[name=email] {
+	width: 500px;
+	height: 30px;
+}
+
+.contact-form input[name=subject] {
+	width: 780px;
+}
+
+.contact-form textarea {
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 5px 10px 0 10px;
+	resize: none;
+	margin: 5px 0 0 0;
+	border: none;
+	font-family: 'Playfair Display', serif;
+}
+
+.contact-form textarea:focus {
+	background-color: #eee;
+}
+
+.contact-form textarea[name=body] {
+	height: 200px;
+	width: 780px;
+}
+
+.contact-form input[name=submit] {
+	text-align: center;
+	border-radius: 0;
+	background-color: #888;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	border: none;
+	padding: 5px 20px;
+	margin: 10px auto;
+}
+
+.contact-form button:hover {
+	background-color: #bbb;
+}

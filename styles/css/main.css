@@ -1,0 +1,172 @@
+/* main stylesheet for David A Kerr*/
+
+html, body {
+	background-color: #f7f7f7;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 1px;
+	color: #555;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #555;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #555;
+}
+
+p.lead {
+	font-size: 18px;
+	font-style: italic;
+	color: #555;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.header {
+	width: 100%;
+}
+
+.header .container {
+	border-bottom: 1px solid #555;
+	text-align: center;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	color: #fff;
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 0 10px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 2px;
+	background-color: #555;
+}
+
+.nav li:hover {
+	background-color: #888;
+}
+
+.nav li.project-nav {
+	background-color: #888;
+}
+
+.nav li.project-nav:hover {
+	background-color: #bbb;
+}
+
+.nav li.placeholder {
+	background-color: transparent;
+	width: 35px;
+}
+
+.footer {
+	width: 100%;
+	clear: both;
+}
+
+.footer p {
+	font-style: italic;
+}
+
+.footer .container {
+	border-top: 1px solid #555;
+	text-align: center;
+}
+
+@media (min-width: 200px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	.nav li {
+		font-size: 12px;
+	}
+
+	.header .container {
+		margin-top: 40px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.footer .container {
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 40px;
+	}
+}
+
+@media (min-width: 650px) {
+	h1 {
+		font-size: 60px;
+	}
+
+	.header .container {
+		margin-top: 40px;
+		margin-left: 16.666%;
+		margin-right: 16.666%;
+	}
+
+	.footer .container {
+		margin-left: 16.666%;
+		margin-right: 16.666%;
+		margin-bottom: 40px;
+	}
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 60px;
+	}
+
+	.header .container {
+		margin-top: 60px;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footer .container {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 60px;
+	}
+}
