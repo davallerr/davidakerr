@@ -20,3 +20,9 @@ $RECYCLE.BIN/
 
 # Node Modules
 node_modules/*
+
+# gulpfile.js
+gulpfile.js
+
+# package.json
+package.json
