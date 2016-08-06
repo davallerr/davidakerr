@@ -22,6 +22,7 @@ h2 {
 	font-size: 40px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
+	font-style: italic;
 	color: #555;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -31,11 +32,11 @@ p {
 	font-family: 'Playfair Display', serif;
 	font-size: 14px;
 	color: #555;
+	line-height: 150%;
 }
 
 p.lead {
 	font-size: 18px;
-	font-style: italic;
 	color: #555;
 	margin: 0;
 }
