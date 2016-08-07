@@ -93,9 +93,18 @@ a:visited {
 	background-color: #bbb;
 }
 
-.nav li.placeholder {
+.nav li.next {
+	margin-right: 38px;
+}
+
+.nav li.prev-placeholder {
 	background-color: transparent;
 	width: 35px;
+}
+
+.nav li.next-placeholder {
+	background-color: transparent;
+	width: 50px;
 }
 
 .footer {
