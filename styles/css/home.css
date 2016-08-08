@@ -17,14 +17,9 @@
 	overflow: hidden;
 }
 
-.gallery-img h3 {
+.gallery-img h2 {
 	position: absolute;
 	color: #fff;
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	letter-spacing: 1px;
-	font-weight: 400;
-	font-size: 40px;
 	top: 40%;
 	left: 0;
 	width: 100%;

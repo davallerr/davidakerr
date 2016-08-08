@@ -9,12 +9,12 @@ html.project1-background {
 }
 
 .project-title {
-	max-width: 800px;
+	max-width: 50em;
 	text-align: center;
 }
 
 .project-gallery {
-	max-width: 800px;
+	max-width: 50em;
 	display: block;
 	text-align: center;
 	position: relative;
@@ -24,7 +24,7 @@ html.project1-background {
 	display: block;
 	height: auto;
 	position: relative;
-	margin: 40px auto 0 auto;
+	margin: 3em auto 0 auto;
 }
 
 .project-img img {
@@ -37,22 +37,22 @@ html.project1-background {
 	width: 100%;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
-	margin-bottom: 20px;
+	margin-top: 4em;
 }
 
 .to-top ul {
 	list-style: none;
-	margin: 30px 0 0 0;
+	margin: 0;
 	padding: 0;
 }
 
 .to-top li {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 1.5em;
 	color: #888;
-	padding: 5px 20px;
-	margin: 0 10px;
-	letter-spacing: 2px;
+	padding: .25em 1.5em;
+	margin: 0;
+	letter-spacing: .05em;
 	border-top: 1px solid #888;
 }
 

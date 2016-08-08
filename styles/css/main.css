@@ -8,35 +8,35 @@ html, body {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 4em;
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	font-style: italic;
-	letter-spacing: 1px;
+	letter-spacing: .025em;
 	color: #555;
 	margin-top: 0;
-	margin-bottom: 10px;
+	margin-bottom: .025em;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 3em;
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	font-style: italic;
 	color: #555;
 	margin-top: 0;
-	margin-bottom: 10px;
+	margin-bottom: .25em;
 }
 
 p {
 	font-family: 'Playfair Display', serif;
-	font-size: 14px;
+	font-size: 1em;
 	color: #555;
-	line-height: 150%;
+	line-height: 175%;
 }
 
 p.lead {
-	font-size: 18px;
+	font-size: 1.25em;
 	color: #555;
 	margin: 0;
 }
@@ -73,11 +73,11 @@ a:visited {
 .nav li {
 	color: #fff;
 	display: inline-block;
-	padding: 5px 20px;
-	margin: 0 10px;
+	padding: .5em 1.5em;
+	margin: 0 .5em;
 	text-align: center;
-	font-size: 14px;
-	letter-spacing: 2px;
+	font-size: 1em;
+	letter-spacing: .05em;
 	background-color: #555;
 }
 
@@ -94,17 +94,17 @@ a:visited {
 }
 
 .nav li.next {
-	margin-right: 38px;
+	margin-right: 2.6em;
 }
 
 .nav li.prev-placeholder {
 	background-color: transparent;
-	width: 35px;
+	width: 2.25em;
 }
 
 .nav li.next-placeholder {
 	background-color: transparent;
-	width: 50px;
+	width: 3em;
 }
 
 .footer {
@@ -122,16 +122,9 @@ a:visited {
 }
 
 @media (min-width: 200px) {
-	h1 {
-		font-size: 40px;
-	}
-
-	.nav li {
-		font-size: 12px;
-	}
 
 	.header .container {
-		margin-top: 40px;
+		margin-top: 2em;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
@@ -139,17 +132,14 @@ a:visited {
 	.footer .container {
 		margin-left: 5%;
 		margin-right: 5%;
-		margin-bottom: 40px;
+		margin-bottom: 2em;
 	}
 }
 
 @media (min-width: 650px) {
-	h1 {
-		font-size: 60px;
-	}
 
 	.header .container {
-		margin-top: 40px;
+		margin-top: 2em;
 		margin-left: 16.666%;
 		margin-right: 16.666%;
 	}
@@ -157,26 +147,23 @@ a:visited {
 	.footer .container {
 		margin-left: 16.666%;
 		margin-right: 16.666%;
-		margin-bottom: 40px;
+		margin-bottom: 2em;
 	}
 }
 
 @media (min-width: 1200px) {
-	h1 {
-		font-size: 60px;
-	}
 
 	.header .container {
-		margin-top: 60px;
-		max-width: 800px;
+		margin-top: 3em;
+		max-width: 50em;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.footer .container {
-		max-width: 800px;
+		max-width: 50em;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 60px;
+		margin-bottom: 3em;
 	}
 }
