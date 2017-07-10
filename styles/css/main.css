@@ -1,5 +1,7 @@
 /* main stylesheet for David A Kerr*/
 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Roboto');
+
 html, body {
 	background-color: #f7f7f7;
 	color: #000;
@@ -30,13 +32,14 @@ h2 {
 }
 
 p {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	color: #555;
 	line-height: 175%;
 }
 
 p.lead {
+	font-family: 'Playfair Display', serif;
 	font-size: 1.25em;
 	color: #555;
 	margin: 0;
