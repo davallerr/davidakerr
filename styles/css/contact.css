@@ -1,8 +1,8 @@
 /* stylesheet for David Kerr portfolio contact page */
 
 .form {
-	max-width: 800px;
 	margin: 20px auto;
+	max-width: 800px;
 }
 
 form {
@@ -15,12 +15,11 @@ form {
 }
 
 .contact-form input {
+	border: none;
 	font-family: 'Playfair Display', serif;
 	font-size: 14px;
 	letter-spacing: 1px;
-	border: none;
 	padding: 0 10px;
-
 }
 
 .contact-form input:focus {
@@ -28,11 +27,11 @@ form {
 }
 
 .contact-form input[type=text] {
+	border-radius: 0;
+	display: inline-block;
 	height: 30px;
 	padding: 0 10px;
 	margin: 5px 0 0 0;
-	border-radius: 0;
-	display: inline-block;
 }
 
 .contact-form input[name=name] {
@@ -40,8 +39,8 @@ form {
 }
 
 .contact-form input[name=email] {
-	width: 500px;
 	height: 30px;
+	width: 500px;
 }
 
 .contact-form input[name=subject] {
@@ -49,13 +48,13 @@ form {
 }
 
 .contact-form textarea {
-	letter-spacing: 1px;
-	font-size: 14px;
-	padding: 5px 10px 0 10px;
-	resize: none;
-	margin: 5px 0 0 0;
 	border: none;
 	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 5px 0 0 0;
+	padding: 5px 10px 0 10px;
+	resize: none;	
 }
 
 .contact-form textarea:focus {
@@ -68,15 +67,15 @@ form {
 }
 
 .contact-form input[name=submit] {
-	text-align: center;
-	border-radius: 0;
 	background-color: #888;
-	color: #fff;
-	font-size: 14px;
-	font-family: 'Playfair Display', serif;
 	border: none;
-	padding: 5px 20px;
+	border-radius: 0;
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
 	margin: 10px auto;
+	padding: 5px 20px;
+	text-align: center;
 }
 
 .contact-form button:hover {
