@@ -1,0 +1,14 @@
+/* stylesheet for Capitol Farms home page */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.logo img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
