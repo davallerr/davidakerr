@@ -2,13 +2,79 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#background-video-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
 .logo {
-  width: 10rem;
-  height: 10rem;
+  margin: 0 auto 0 auto;
+  width: 70vw;
+  height: 70vw;
+  max-width: 15rem;
+  max-height: 15rem;
 }
 
 .logo img {
   display: block;
   height: auto;
   width: 100%;
+}
+
+.contact {
+  background: rgba(255,255,255,.8);
+  text-align: center;
+  width: 15rem;
+  margin: 1rem auto 1rem auto;
+  padding: .8rem 0 .8rem 0;
+}
+
+.main-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+@media (min-width: 200px) {
+
+  .logo {
+    
+  }
+
+}
+
+
+@media (min-width: 650px) {
+  
+  .logo {
+    
+  }
+
 }
